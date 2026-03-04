@@ -2,6 +2,9 @@ project:
   type: website
   output-dir: docs
 
+resources:
+  - files/
+
 website:
   title: "Mana Hariri"
   navbar:
@@ -38,9 +41,6 @@ format:
     linestretch: 2
     page-layout: full
     smooth-scroll: true
-    
-resources:
-  - files/
 
 editor: visual
 
