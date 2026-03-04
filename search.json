@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "My name is Mana Hariri, and I am a fourth-year student at the University of California, Los Angeles (UCLA) pursuing a double major in Applied Mathematics and Statistics & Data Science. In addition to my two majors, I am specializing in computing, which has allowed me to develop strong technical and programming skills. I have extensive experience working with languages such as C++, Python, and R, which I regularly use for statistical analysis, data modeling, and computational problem solving. My expected graduation date is June 2026.\nOver the past four years at UCLA, I have had the privilege of studying under many of the university’s distinguished faculty members and engaging with rigorous coursework that has strengthened both my theoretical and practical understanding of quantitative methods. Through classes in statistical modeling, Monte Carlo methods, linear algebra, optimization, and advanced statistical computing, I have developed a strong foundation in mathematical reasoning, data analysis, and algorithmic thinking. These experiences have equipped me with the tools necessary to approach complex problems from both a mathematical and computational perspective."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About",
+    "section": "Education",
+    "text": "Education\nUniversity of California, Los Angeles | Los Angeles, CA\nB.S. Applied Mathematics & B.S. Statistics and Data Science | Sept 2022 - June 2026"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Mana Hariri",
+    "section": "",
+    "text": "Applied Mathematics & Statistics student at UCLA interested in data science, statistical modeling, and machine learning.\n\n\n\n\n\n\nEducation, academic background, and interests.\nLearn More →\n\n\n\nData science and statistical modeling projects from my coursework.\nView Projects →\n\n\n\nProfessional work, and leadership roles.\nSee Experience →\n\n\n\n\n\n\nLanguages: R, Python\nTools: Git, Quarto, LaTeX\nFocus: Data Science, Machine Learning, Statistical Modeling"
+  },
+  {
+    "objectID": "index.html#explore-the-site",
+    "href": "index.html#explore-the-site",
+    "title": "Mana Hariri",
+    "section": "",
+    "text": "Education, academic background, and interests.\nLearn More →\n\n\n\nData science and statistical modeling projects from my coursework.\nView Projects →\n\n\n\nProfessional work, and leadership roles.\nSee Experience →"
+  },
+  {
+    "objectID": "index.html#skills",
+    "href": "index.html#skills",
+    "title": "Mana Hariri",
+    "section": "",
+    "text": "Languages: R, Python\nTools: Git, Quarto, LaTeX\nFocus: Data Science, Machine Learning, Statistical Modeling"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "ASA DataFest at UCLA  | UCLA\n\nParticipant | April 2025\n- Coding Language: R\n- Collaborated as a team to analyze a large and complex data set over a 48-hour competition.\n- Applied statistical modeling and machine learning methods to extract insights and present findings to judges and mentors.\n\n\n\nPenguins ML Project — Classification of Penguin Species and Islands | UCLA\n\nTeam Member| March 2025\n- Coding Language: R\n- Built and trained machine learning models in Python to classify penguin species and their island habitats.\n- Compared model performance across logistic regression, decision trees, and random forests.\n\n\n\nExperimental Design: Music and Reading Comprehension | UCLA\n\nTeam Member| August 2025\n- Coding Language: R\n- Designed and analyzed an experiment studying the effect of classical vs. heavy metal music on reading comprehension.\n- Applied ANOVA and statistical inference to evaluate differences between treatment groups."
+  },
+  {
+    "objectID": "experience.html",
+    "href": "experience.html",
+    "title": "Mana Hariri",
+    "section": "",
+    "text": "Classroom Assistant | Sept 2022 - present\n- Supported student groups and designed lesson activities, applying computational tools (e.g., smart boards, 3D modeling) to enhance learning.\n- Practiced effective communication and problem-solving in collaborative settings."
+  },
+  {
+    "objectID": "experience.html#work-experience",
+    "href": "experience.html#work-experience",
+    "title": "Mana Hariri",
+    "section": "",
+    "text": "Classroom Assistant | Sept 2022 - present\n- Supported student groups and designed lesson activities, applying computational tools (e.g., smart boards, 3D modeling) to enhance learning.\n- Practiced effective communication and problem-solving in collaborative settings."
+  },
+  {
+    "objectID": "experience.html#leadership-service",
+    "href": "experience.html#leadership-service",
+    "title": "Mana Hariri",
+    "section": "Leadership & Service",
+    "text": "Leadership & Service\n\nMulti-Interest Greek Council | Los Angeles, CA\n\nPresident | Sept 2024 - present\n- Led and directed an executive board.\n- Created, communicated and implemented the organization’s vision, mission and overall direction.\n- Appointed committee chairs and delegated tasks as necessary.\n\n\nIranian Student Group | Los Angeles, CA\n\nCultural Director | June 2024 - present\n- Facilitated and organized all aspects of volunteering such as recruiting new volunteers and promoting opportunities.\n- Remained well-organized and managed schedules, tasks, and resources efficiently.\n- Handled the diverse needs of volunteers and ensured the smooth functioning of volunteer activities.\n\n\n\nLearning Assistant Program | Los Angeles, CA\n\nLearning Assistant | September 2024 - present\n- Deepened an understanding of teaching as a collaborative, empathetic, and student-centered process.\n- Further developed awareness of student diversity and applied inclusive teaching practices to create an equitable and supportive learning environment for all learners.\n- Fostered a deeper appreciation for collaborative interactions with Learning Assistants, instructors, and peers, recognizing their impact on personal and professional growth.\n\n\n\nSigma Pi Sigma Psi | Los Angeles, CA\n\nInternal Vice President | September 2022 - present\n- Ensured compliance with organizational standards and regulatory requirements.\n- Promoted a positive and inclusive organizational culture.\n- Facilitated communication and collaboration between different departments."
+  }
+]
