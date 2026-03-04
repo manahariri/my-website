@@ -21,7 +21,6 @@ website:
     border: true
     
 
-    
       
 
 
@@ -40,3 +39,4 @@ format:
     smooth-scroll: true
 
 editor: visual
+
