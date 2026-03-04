@@ -13,7 +13,7 @@ about:
       href: mailto:manahariri1383@gmail.com
     - icon: file-earmark-pdf
       text: Resume
-      href: Mana_Hariri_Resume.pdf
+      href: files/Mana_Hariri_Resume.pdf
 ---
 My name is Mana Hariri, and I am a fourth-year student at the University of California, Los Angeles (UCLA) pursuing a double major in [Applied Mathematics](https://catalog.registrar.ucla.edu/major/2021/appliedmathematicsbs?siteYear=2021) and [Statistics & Data Science](https://statistics.ucla.edu/index.php/about/statistics-and-data-science/). In addition to my two majors, I am specializing in computing, which has allowed me to develop strong technical and programming skills. I have extensive experience working with languages such as C++, Python, and R, which I regularly use for statistical analysis, data modeling, and computational problem solving. My expected graduation date is June 2026.
 

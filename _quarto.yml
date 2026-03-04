@@ -1,8 +1,6 @@
 project:
   type: website
   output-dir: docs
-  resources:
-    - files/**
 
 website:
   title: "Mana Hariri"
@@ -18,7 +16,7 @@ website:
         href: projects.qmd
     right:
       - icon: linkedin
-        href: www.linkedin.com/in/manahariri
+        href: https://www.linkedin.com/in/manahariri
     background: "#CDC1C5"
     foreground: "secondary"
     border: true
@@ -40,6 +38,9 @@ format:
     linestretch: 2
     page-layout: full
     smooth-scroll: true
+    
+resources:
+  - files/
 
 editor: visual
 
