@@ -1,10 +1,44 @@
 ---
 ---
 
-## What's on this site:
+# Mana Hariri
 
-**About:** Education + Background
+Applied Mathematics & Statistics student at UCLA interested in 
+data science, statistical modeling, and machine learning.
 
-**Projects**: Projects I have worked on during my undergraduate studies
+---
 
-**Experience**: My work, leadership and research experience
+## Explore the Site
+
+::: {.grid}
+
+::: {.g-col-4}
+### About
+Education, academic background, and interests.
+
+[Learn More →](about.qmd)
+:::
+
+::: {.g-col-4}
+### Projects
+Data science and statistical modeling projects from my coursework.
+
+[View Projects →](projects.qmd)
+:::
+
+::: {.g-col-4}
+### Experience
+Professional work, and leadership roles.
+
+[See Experience →](experience.qmd)
+:::
+
+:::
+
+---
+
+## Skills
+
+**Languages:** R, Python  
+**Tools:** Git, Quarto, LaTeX  
+**Focus:** Data Science, Machine Learning, Statistical Modeling
