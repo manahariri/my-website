@@ -18,14 +18,14 @@
     "href": "index.html",
     "title": "Mana Hariri",
     "section": "",
-    "text": "Applied Mathematics & Statistics student at UCLA interested in data science, statistical modeling, and machine learning.\n\n\n\n\n\n\nEducation, academic background, and interests.\nLearn More →\n\n\n\nData science and statistical modeling projects from my coursework.\nView Projects →\n\n\n\nProfessional work, and leadership roles.\nSee Experience →\n\n\n\n\n\n\nLanguages: R, Python\nTools: Git, Quarto, LaTeX\nFocus: Data Science, Machine Learning, Statistical Modeling"
+    "text": "Applied Mathematics & Statistics student at UCLA interested in data science, statistical modeling, and machine learning.\n\n\n\n\n\n\nEducation, academic background, and interests.\nLearn More →\n\n\n\nData science and statistical modeling projects from my coursework.\nView Projects →\n\n\n\nResume and experiences.\nView Resume →\n\n\n\nProfessional work, and leadership roles.\nSee Experience →\n\n\n\n\n\n\nLanguages: R, Python\nTools: Git, Quarto, LaTeX\nFocus: Data Science, Machine Learning, Statistical Modeling"
   },
   {
     "objectID": "index.html#explore-the-site",
     "href": "index.html#explore-the-site",
     "title": "Mana Hariri",
     "section": "",
-    "text": "Education, academic background, and interests.\nLearn More →\n\n\n\nData science and statistical modeling projects from my coursework.\nView Projects →\n\n\n\nProfessional work, and leadership roles.\nSee Experience →"
+    "text": "Education, academic background, and interests.\nLearn More →\n\n\n\nData science and statistical modeling projects from my coursework.\nView Projects →\n\n\n\nResume and experiences.\nView Resume →\n\n\n\nProfessional work, and leadership roles.\nSee Experience →"
   },
   {
     "objectID": "index.html#skills",
@@ -33,6 +33,13 @@
     "title": "Mana Hariri",
     "section": "",
     "text": "Languages: R, Python\nTools: Git, Quarto, LaTeX\nFocus: Data Science, Machine Learning, Statistical Modeling"
+  },
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Resume",
+    "section": "",
+    "text": "Education:\n\nUniversity of California, Los Angeles (UCLA) | Fall 2022 - Spring 2026\n\nB.S. Applied Mathematics\n\nB.S. Statistics and Data Science\n\nSpecialization in computing\n\n\n\n\n\nWork Experience\n\nUCLA Lab School | Los Angeles, CA\nClassroom Assistant | Sept 2022 - present\n- Supported student groups and designed lesson activities, applying computational tools (e.g., smart boards, 3D modeling) to enhance learning.\n- Practiced effective communication and problem-solving in collaborative settings.\n\n\n\nLeadership & Service\n\nMulti-Interest Greek Council | Los Angeles, CA\nPresident | Sept 2024 - present\n- Led and directed an executive board.\n- Created, communicated and implemented the organization’s vision, mission and overall direction.\n- Appointed committee chairs and delegated tasks as necessary.\n\n\nIranian Student Group | Los Angeles, CA\nCultural Director | June 2024 - present\n- Facilitated and organized all aspects of volunteering such as recruiting new volunteers and promoting opportunities.\n- Remained well-organized and managed schedules, tasks, and resources efficiently.\n- Handled the diverse needs of volunteers and ensured the smooth functioning of volunteer activities.\n\n\n\nLearning Assistant Program | Los Angeles, CA\nLearning Assistant | September 2024 - present\n- Deepened an understanding of teaching as a collaborative, empathetic, and student-centered process.\n- Further developed awareness of student diversity and applied inclusive teaching practices to create an equitable and supportive learning environment for all learners.\n- Fostered a deeper appreciation for collaborative interactions with Learning Assistants, instructors, and peers, recognizing their impact on personal and professional growth.\n\n\n\nSigma Pi Sigma Psi | Los Angeles, CA\nInternal Vice President | September 2022 - present\n- Ensured compliance with organizational standards and regulatory requirements.\n- Promoted a positive and inclusive organizational culture.\n- Facilitated communication and collaboration between different departments.\n\n\n\n\nProjects\n\nASA DataFest at UCLA | UCLA\nParticipant | April 2025\n- Coding Language: R\n- Collaborated as a team to analyze a large and complex data set over a 48-hour competition.\n- Applied statistical modeling and machine learning methods to extract insights and present findings to judges and mentors.\n\n\n\nPenguins ML Project — Classification of Penguin Species and Islands| UCLA\nTeam Member| March 2025\n- Coding Language: R\n- Built and trained machine learning models in Python to classify penguin species and their island habitats.\n- Compared model performance across logistic regression, decision trees, and random forests.\n\n\n\nExperimental Design: Music and Reading Comprehension| UCLA\nTeam Member| August 2025\n- Coding Language: R\n- Designed and analyzed an experiment studying the effect of classical vs. heavy metal music on reading comprehension.\n- Applied ANOVA and statistical inference to evaluate differences between treatment groups."
   },
   {
     "objectID": "projects.html",

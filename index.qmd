@@ -27,6 +27,13 @@ Data science and statistical modeling projects from my coursework.
 :::
 
 ::: {.g-col-4}
+### Resume
+Resume and experiences.
+
+[View Resume →](resume.qmd)
+:::
+
+::: {.g-col-4}
 ### Experience
 Professional work, and leadership roles.
 

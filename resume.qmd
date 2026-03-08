@@ -1,0 +1,72 @@
+---
+title: "Resume"
+---
+
+### Education:
+
+#### University of California, Los Angeles (UCLA) \| Fall 2022 - Spring 2026 
+
+-   B.S. Applied Mathematics\
+-   B.S. Statistics and Data Science\
+-   Specialization in computing\
+
+### Work Experience
+
+#### UCLA Lab School \| Los Angeles, CA 
+
+Classroom Assistant \| Sept 2022 - present\
+- Supported student groups and designed lesson activities, **applying computational tools (e.g., smart boards, 3D modeling)** to enhance learning.\
+- Practiced **effective communication and problem-solving** in collaborative settings.
+
+### Leadership & Service
+
+#### Multi-Interest Greek Council \| Los Angeles, CA 
+
+President \| Sept 2024 - present\
+- **Led and directed** an executive board.\
+- **Created, communicated and implemented** the organization’s vision, mission and overall direction.\
+- Appointed committee chairs and **delegated tasks** as necessary.
+
+#### Iranian Student Group \| Los Angeles, CA 
+
+Cultural Director \| June 2024 - present\
+- Facilitated and organized all aspects of volunteering such as recruiting new volunteers and promoting opportunities.\
+- Remained well-organized and **managed schedules, tasks, and resources efficiently.**\
+- Handled the diverse needs of volunteers and ensured the smooth functioning of volunteer activities.\
+
+#### Learning Assistant Program \| Los Angeles, CA 
+
+Learning Assistant \| September 2024 - present\
+- Deepened an understanding of teaching as a collaborative, empathetic, and student-centered process.\
+- Further developed awareness of student diversity and applied inclusive teaching practices to create an equitable and supportive learning environment for all learners.\
+- Fostered a deeper appreciation for **collaborative interactions with Learning Assistants, instructors, and peers,** recognizing their impact on personal and professional growth.\
+
+#### Sigma Pi Sigma Psi \| Los Angeles, CA 
+
+Internal Vice President \| September 2022 - present\
+- Ensured compliance with organizational standards and regulatory requirements.\
+- Promoted a positive and inclusive organizational culture.\
+- Facilitated communication and collaboration between different departments.\
+
+### Projects
+
+#### ASA DataFest at UCLA \| UCLA
+
+Participant \| April 2025\
+- Coding Language: R\
+- Collaborated as a team to analyze a large and complex data set over a 48-hour competition.\
+- Applied statistical modeling and machine learning methods to extract insights and present findings to judges and mentors.\
+
+#### Penguins ML Project — Classification of Penguin Species and Islands\| UCLA
+
+Team Member\| March 2025\
+- Coding Language: R\
+- Built and trained machine learning models in Python to classify penguin species and their island habitats.\
+- Compared model performance across logistic regression, decision trees, and random forests.\
+
+#### Experimental Design: Music and Reading Comprehension\| UCLA
+
+Team Member\| August 2025\
+- Coding Language: R\
+- Designed and analyzed an experiment studying the effect of classical vs. heavy metal music on reading comprehension.\
+- Applied ANOVA and statistical inference to evaluate differences between treatment groups.\

@@ -17,6 +17,8 @@ website:
         href: about.qmd
       - text: "Projects"
         href: projects.qmd
+      - text: "Resume"
+        href: resume.qmd
     right:
       - icon: linkedin
         href: https://www.linkedin.com/in/manahariri
