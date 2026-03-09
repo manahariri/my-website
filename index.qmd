@@ -1,51 +1,34 @@
 ---
 ---
-
-# Mana Hariri
-
-Applied Mathematics & Statistics student at UCLA interested in 
-data science, statistical modeling, and machine learning.
-
+Mana Hariri
 ---
 
-## Explore the Site
+My name is Mana Hariri, and I am a fourth-year student at the University of California, Los Angeles (UCLA) pursuing a double major in Applied Mathematics and Statistics & Data Science. In addition to my two majors, I am specializing in computing, which has allowed me to develop strong technical and programming skills. I have extensive experience working with languages such as C++, Python, and R, which I regularly use for statistical analysis, data modeling, and computational problem solving. My expected graduation date is June 2026.
 
-::: {.grid}
+### Explore the Site
 
-::: {.g-col-4}
-### About
-Education, academic background, and interests.
-
-[Learn More →](about.qmd)
+::::::: grid
+::: g-col-2
+#### [**About**](about.qmd)
 :::
 
-::: {.g-col-4}
-### Projects
-Data science and statistical modeling projects from my coursework.
-
-[View Projects →](projects.qmd)
+::: g-col-2
+#### [**Projects**](projects.qmd)
 :::
 
-::: {.g-col-4}
-### Resume
-Resume and experiences.
-
-[View Resume →](resume.qmd)
+::: g-col-2
+#### [**Resume**](resume.qmd)
 :::
 
-::: {.g-col-4}
-### Experience
-Professional work, and leadership roles.
-
-[See Experience →](experience.qmd)
+::: g-col-2
+#### [**Experience**](experience.qmd)
 :::
+:::::::
 
-:::
+------------------------------------------------------------------------
 
----
+### Skills
 
-## Skills
-
-**Languages:** R, Python  
-**Tools:** Git, Quarto, LaTeX  
+**Languages:** R, Python, C++\
+**Tools:** Git, Quarto, LaTeX\
 **Focus:** Data Science, Machine Learning, Statistical Modeling

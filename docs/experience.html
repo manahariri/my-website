@@ -36,14 +36,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-1c462994a93d1dcc0dd97686e4bbaeb9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-d21e5c7f9111f56a2a4aa24e97bb655a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-1c462994a93d1dcc0dd97686e4bbaeb9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-1c462994a93d1dcc0dd97686e4bbaeb9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -77,169 +73,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
-    const toggleBodyColorMode = (bsSheetEl) => {
-      const mode = bsSheetEl.getAttribute("data-mode");
-      const bodyEl = window.document.querySelector("body");
-      if (mode === "dark") {
-        bodyEl.classList.add("quarto-dark");
-        bodyEl.classList.remove("quarto-light");
-      } else {
-        bodyEl.classList.add("quarto-light");
-        bodyEl.classList.remove("quarto-dark");
-      }
-    }
-    const toggleBodyColorPrimary = () => {
-      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
-      if (bsSheetEl) {
-        toggleBodyColorMode(bsSheetEl);
-      }
-    }
-    const setColorSchemeToggle = (alternate) => {
-      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
-      for (let i=0; i < toggles.length; i++) {
-        const toggle = toggles[i];
-        if (toggle) {
-          if (alternate) {
-            toggle.classList.add("alternate");
-          } else {
-            toggle.classList.remove("alternate");
-          }
-        }
-      }
-    };
-    const toggleColorMode = (alternate) => {
-      // Switch the stylesheets
-      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
-      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
-      manageTransitions('#quarto-margin-sidebar .nav-link', false);
-      if (alternate) {
-        // note: dark is layered on light, we don't disable primary!
-        enableStylesheet(alternateStylesheets);
-        for (const sheetNode of alternateStylesheets) {
-          if (sheetNode.id === "quarto-bootstrap") {
-            toggleBodyColorMode(sheetNode);
-          }
-        }
-      } else {
-        disableStylesheet(alternateStylesheets);
-        enableStylesheet(primaryStylesheets)
-        toggleBodyColorPrimary();
-      }
-      manageTransitions('#quarto-margin-sidebar .nav-link', true);
-      // Switch the toggles
-      setColorSchemeToggle(alternate)
-      // Hack to workaround the fact that safari doesn't
-      // properly recolor the scrollbar when toggling (#1455)
-      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
-        manageTransitions("body", false);
-        window.scrollTo(0, 1);
-        setTimeout(() => {
-          window.scrollTo(0, 0);
-          manageTransitions("body", true);
-        }, 40);
-      }
-    }
-    const disableStylesheet = (stylesheets) => {
-      for (let i=0; i < stylesheets.length; i++) {
-        const stylesheet = stylesheets[i];
-        stylesheet.rel = 'disabled-stylesheet';
-      }
-    }
-    const enableStylesheet = (stylesheets) => {
-      for (let i=0; i < stylesheets.length; i++) {
-        const stylesheet = stylesheets[i];
-        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
-          stylesheet.rel = 'stylesheet';
-        }
-      }
-    }
-    const manageTransitions = (selector, allowTransitions) => {
-      const els = window.document.querySelectorAll(selector);
-      for (let i=0; i < els.length; i++) {
-        const el = els[i];
-        if (allowTransitions) {
-          el.classList.remove('notransition');
-        } else {
-          el.classList.add('notransition');
-        }
-      }
-    }
-    const isFileUrl = () => {
-      return window.location.protocol === 'file:';
-    }
-    const hasAlternateSentinel = () => {
-      let styleSentinel = getColorSchemeSentinel();
-      if (styleSentinel !== null) {
-        return styleSentinel === "alternate";
-      } else {
-        return false;
-      }
-    }
-    const setStyleSentinel = (alternate) => {
-      const value = alternate ? "alternate" : "default";
-      if (!isFileUrl()) {
-        window.localStorage.setItem("quarto-color-scheme", value);
-      } else {
-        localAlternateSentinel = value;
-      }
-    }
-    const getColorSchemeSentinel = () => {
-      if (!isFileUrl()) {
-        const storageValue = window.localStorage.getItem("quarto-color-scheme");
-        return storageValue != null ? storageValue : localAlternateSentinel;
-      } else {
-        return localAlternateSentinel;
-      }
-    }
-    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
-      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
-      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
-      let newTheme = '';
-      if(authorPrefersDark) {
-        newTheme = isAlternate ? baseTheme : alternateTheme;
-      } else {
-        newTheme = isAlternate ? alternateTheme : baseTheme;
-      }
-      const changeGiscusTheme = () => {
-        // From: https://github.com/giscus/giscus/issues/336
-        const sendMessage = (message) => {
-          const iframe = document.querySelector('iframe.giscus-frame');
-          if (!iframe) return;
-          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
-        }
-        sendMessage({
-          setConfig: {
-            theme: newTheme
-          }
-        });
-      }
-      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
-      if (isGiscussLoaded) {
-        changeGiscusTheme();
-      }
-    };
-    const authorPrefersDark = false;
-    const darkModeDefault = authorPrefersDark;
-      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
-      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
-    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
-    // Dark / light mode switch
-    window.quartoToggleColorScheme = () => {
-      // Read the current dark / light value
-      let toAlternate = !hasAlternateSentinel();
-      toggleColorMode(toAlternate);
-      setStyleSentinel(toAlternate);
-      toggleGiscusIfUsed(toAlternate, darkModeDefault);
-      window.dispatchEvent(new Event('resize'));
-    };
-    // Switch to dark mode if need be
-    if (hasAlternateSentinel()) {
-      toggleColorMode(true);
-    } else {
-      toggleColorMode(false);
-    }
-  </script>
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -283,10 +117,14 @@ ul.task-list li input[type="checkbox"] {
 </i> 
 <span class="menu-text"></span></a>
   </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="mailto:manahariri1383@gmail.com"> <i class="bi bi-envelope" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -302,53 +140,55 @@ ul.task-list li input[type="checkbox"] {
     <div class="entity-contents">
       <header id="title-block-header" class="quarto-title-block"></header> 
       <div class="about-contents"><main class="content column-page" id="quarto-document-content">
-
 <section id="work-experience" class="level2">
 <h2 data-anchor-id="work-experience">Work Experience</h2>
-<section id="ucla-lab-school-los-angeles-ca" class="level4">
-<h4 data-anchor-id="ucla-lab-school-los-angeles-ca">UCLA Lab School | Los Angeles, CA<br>
-</h4>
-<p>Classroom Assistant | Sept 2022 - present<br>
-- Supported student groups and designed lesson activities, <strong>applying computational tools (e.g., smart boards, 3D modeling)</strong> to enhance learning.<br>
-- Practiced <strong>effective communication and problem-solving</strong> in collaborative settings.</p>
+<section id="ucla-lab-school-sept-2022---present" class="level4">
+<h4 data-anchor-id="ucla-lab-school-sept-2022---present">UCLA Lab School | Sept 2022 - present</h4>
+<p><em>Classroom Assistant</em></p>
+<ul>
+<li><p>Supported student groups and designed lesson activities, <strong>applying computational tools (e.g., smart boards, 3D modeling)</strong> to enhance learning.</p></li>
+<li><p>Practiced <strong>effective communication and problem-solving</strong> in collaborative settings.</p></li>
+</ul>
 </section>
 </section>
 <section id="leadership-service" class="level2">
 <h2 data-anchor-id="leadership-service">Leadership &amp; Service</h2>
-<section id="multi-interest-greek-council-los-angeles-ca" class="level4">
-<h4 data-anchor-id="multi-interest-greek-council-los-angeles-ca">Multi-Interest Greek Council | Los Angeles, CA<br>
-</h4>
-<p>President | Sept 2024 - present<br>
-- <strong>Led and directed</strong> an executive board.<br>
-- <strong>Created, communicated and implemented</strong> the organization’s vision, mission and overall direction.<br>
-- Appointed committee chairs and <strong>delegated tasks</strong> as necessary.</p>
+<section id="multi-interest-greek-council-sept-2024---present" class="level4">
+<h4 data-anchor-id="multi-interest-greek-council-sept-2024---present">Multi-Interest Greek Council | Sept 2024 - present</h4>
+<p><em>President</em></p>
+<ul>
+<li><p><strong>Led and directed</strong> an executive board.</p></li>
+<li><p><strong>Created, communicated and implemented</strong> the organization’s vision, mission and overall direction.</p></li>
+<li><p>Appointed committee chairs and <strong>delegated tasks</strong> as necessary.</p></li>
+</ul>
 </section>
-<section id="iranian-student-group-los-angeles-ca" class="level4">
-<h4 data-anchor-id="iranian-student-group-los-angeles-ca">Iranian Student Group | Los Angeles, CA<br>
-</h4>
-<p>Cultural Director | June 2024 - present<br>
-- Facilitated and organized all aspects of volunteering such as recruiting new volunteers and promoting opportunities.<br>
-- Remained well-organized and <strong>managed schedules, tasks, and resources efficiently.</strong><br>
-- Handled the diverse needs of volunteers and ensured the smooth functioning of volunteer activities.<br>
-</p>
+<section id="iranian-student-group-june-2024---present" class="level4">
+<h4 data-anchor-id="iranian-student-group-june-2024---present">Iranian Student Group | June 2024 - present</h4>
+<p><em>Cultural Director</em></p>
+<ul>
+<li><p>Facilitated and organized all aspects of volunteering such as recruiting new volunteers and promoting opportunities.</p></li>
+<li><p>Remained well-organized and <strong>managed schedules, tasks, and resources efficiently.</strong></p></li>
+<li><p>Handled the diverse needs of volunteers and ensured the smooth functioning of volunteer activities.<br>
+</p></li>
+</ul>
 </section>
-<section id="learning-assistant-program-los-angeles-ca" class="level4">
-<h4 data-anchor-id="learning-assistant-program-los-angeles-ca">Learning Assistant Program | Los Angeles, CA<br>
-</h4>
-<p>Learning Assistant | September 2024 - present<br>
-- Deepened an understanding of teaching as a collaborative, empathetic, and student-centered process.<br>
-- Further developed awareness of student diversity and applied inclusive teaching practices to create an equitable and supportive learning environment for all learners.<br>
-- Fostered a deeper appreciation for <strong>collaborative interactions with Learning Assistants, instructors, and peers,</strong> recognizing their impact on personal and professional growth.<br>
-</p>
+<section id="learning-assistant-program-september-2024---present" class="level4">
+<h4 data-anchor-id="learning-assistant-program-september-2024---present">Learning Assistant Program | September 2024 - present</h4>
+<p><em>Learning Assistant</em></p>
+<ul>
+<li><p>Deepened an understanding of teaching as a collaborative, empathetic, and student-centered process.</p></li>
+<li><p>Fostered a deeper appreciation for <strong>collaborative interactions with Learning Assistants, instructors, and peers,</strong> recognizing their impact on personal and professional growth.<br>
+</p></li>
+</ul>
 </section>
-<section id="sigma-pi-sigma-psi-los-angeles-ca" class="level4">
-<h4 data-anchor-id="sigma-pi-sigma-psi-los-angeles-ca">Sigma Pi Sigma Psi | Los Angeles, CA<br>
-</h4>
-<p>Internal Vice President | September 2022 - present<br>
-- Ensured compliance with organizational standards and regulatory requirements.<br>
-- Promoted a positive and inclusive organizational culture.<br>
-- Facilitated communication and collaboration between different departments.<br>
-</p>
+<section id="sigma-pi-sigma-psi-september-2022---present" class="level4">
+<h4 data-anchor-id="sigma-pi-sigma-psi-september-2022---present">Sigma Pi Sigma Psi | September 2022 - present</h4>
+<p><em>Internal Vice President</em></p>
+<ul>
+<li><p>Ensured compliance with <strong>organizational standards and regulatory requirements</strong>.</p></li>
+<li><p>Promoted a positive and inclusive organizational culture.</p></li>
+<li><p>Facilitated communication and collaboration between different departments.</p></li>
+</ul>
 
 
 </section>
@@ -360,19 +200,6 @@ ul.task-list li input[type="checkbox"] {
  <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
-    // Ensure there is a toggle, if there isn't float one in the top right
-    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
-      const a = window.document.createElement('a');
-      a.classList.add('top-right');
-      a.classList.add('quarto-color-scheme-toggle');
-      a.href = "";
-      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
-      const i = window.document.createElement("i");
-      i.classList.add('bi');
-      a.appendChild(i);
-      window.document.body.appendChild(a);
-    }
-    setColorSchemeToggle(hasAlternateSentinel())
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     

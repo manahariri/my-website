@@ -22,6 +22,8 @@ website:
     right:
       - icon: linkedin
         href: https://www.linkedin.com/in/manahariri
+      - icon: envelope
+        href: mailto:manahariri1383@gmail.com
     background: "#CDC1C5"
     foreground: "secondary"
     border: true
@@ -33,9 +35,7 @@ website:
 
 format:
   html:
-    theme: 
-      light: flatly
-      dark: darkly
+    theme: flatly
     backgroundcolor: "#FFF0F5"
     css: styles.css
     toc: false
