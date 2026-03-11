@@ -2,93 +2,15 @@
 title: "Resume"
 ---
 
-### Education:
+#### My Resume
 
-#### University of California, Los Angeles (UCLA) \| Fall 2022 - Spring 2026 
+You can view or download my resume below.
 
--   B.S. Applied Mathematics\
--   B.S. Statistics and Data Science\
--   Specialization in computing\
+[Download Resume](files/Mana_Hariri_Resume.pdf)
 
-### Work Experience
-
-#### UCLA Lab School \| Sept 2022 - present
-
-*Classroom Assistant*
-
--   Supported student groups and designed lesson activities, **applying computational tools (e.g., smart boards, 3D modeling)** to enhance learning.
-
--   Practiced **effective communication and problem-solving** in collaborative settings.
-
-## Leadership & Service
-
-#### Multi-Interest Greek Council \| Sept 2024 - present
-
-*President*
-
--   **Led and directed** an executive board.
-
--   **Created, communicated and implemented** the organization’s vision, mission and overall direction.
-
--   Appointed committee chairs and **delegated tasks** as necessary.
-
-#### Iranian Student Group \| June 2024 - present
-
-*Cultural Director*
-
--   Facilitated and organized all aspects of volunteering such as recruiting new volunteers and promoting opportunities.
-
--   Remained well-organized and **managed schedules, tasks, and resources efficiently.**
-
--   Handled the diverse needs of volunteers and ensured the smooth functioning of volunteer activities.\
-
-#### Learning Assistant Program \| September 2024 - present
-
-*Learning Assistant*
-
--   Deepened an understanding of teaching as a collaborative, empathetic, and student-centered process.
-
--   Fostered a deeper appreciation for **collaborative interactions with Learning Assistants, instructors, and peers,** recognizing their impact on personal and professional growth.\
-
-#### Sigma Pi Sigma Psi \| September 2022 - present
-
-*Internal Vice President*
-
--   Ensured compliance with **organizational standards and regulatory requirements**.
-
--   Promoted a positive and inclusive organizational culture.
-
--   Facilitated communication and collaboration between different departments.
-
-
-### Projects
-
-#### ASA DataFest at UCLA \| April 2025
-
-*Participant*
-
--   Coding Language: R
-
--   Collaborated as a team to **analyze a large and complex data set** over a 48-hour competition.
-
--   Applied **statistical modeling and machine learning methods** to extract insights and present findings to judges and mentors.\
-
-#### Penguins ML Project — Classification of Penguin Species and Islands \| March 2025
-
-*Team Member*
-
--   Coding Language: R
-
--   Built and **trained machine learning models in Python** to classify penguin species and their island habitats.
-
--   **Compared model performance** across logistic regression, decision trees, and random forests.\
-
-#### Experimental Design: Music and Reading Comprehension \| August 2025
-
-*Team Member*
-
--   Coding Language: R
-
--   Designed and analyzed an experiment studying the effect of classical vs. heavy metal music on reading comprehension.
-
--   **Applied ANOVA and statistical inference** to evaluate differences between treatment groups.\
+<iframe 
+  src="files/Mana_Hariri_Resume.pdf"
+  width="100%"
+  height="900px"
+  style="border:none;">
+</iframe>
