@@ -1,1 +1,36 @@
 /* css styles */
+/* Overall page styling */
+body {
+  background-color: #FFF0F5;
+  font-size: 1em;
+  line-height: 2;
+  scroll-behavior: smooth;
+}
+
+/* Make content use more horizontal space */
+.page-content,
+.main,
+.content,
+.quarto-container {
+  max-width: 100%;
+  width: 100%;
+}
+
+/* Optional: give the page a softer, cleaner look */
+h1, h2, h3, h4 {
+  margin-top: 1.2em;
+  margin-bottom: 0.6em;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

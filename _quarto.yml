@@ -27,22 +27,11 @@ website:
     background: "#CDC1C5"
     foreground: "secondary"
     border: true
-    
-
-      
-
-
 
 format:
   html:
-    theme: flatly
-    backgroundcolor: "#FFF0F5"
     css: styles.css
-    toc: false
-    fontsize: 1.0em
-    linestretch: 2
-    page-layout: full
-    smooth-scroll: true
 
-editor: visual
+
+      
 
