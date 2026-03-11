@@ -24,6 +24,8 @@ website:
         href: https://www.linkedin.com/in/manahariri
       - icon: envelope
         href: mailto:manahariri1383@gmail.com
+      - icon: github
+        href: https://github.com/manahariri
     background: "#CDC1C5"
     foreground: "secondary"
     border: true
