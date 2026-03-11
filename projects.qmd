@@ -16,7 +16,7 @@ title: "Projects"
 
 *Team Member*
 
--   Coding Language: R
+-   Coding Language: Python
 
 -   Built and **trained machine learning models in Python** to classify penguin species and their island habitats.
 
