@@ -7,23 +7,13 @@ My name is Mana Hariri, and I am a fourth-year student at the University of Cali
 
 ### Explore the Site
 
-::::::: grid
-::: g-col-2
 #### [**About**](about.qmd)
-:::
 
-::: g-col-2
-#### [**Projects**](projects.qmd)
-:::
-
-::: g-col-2
-#### [**Resume**](resume.qmd)
-:::
-
-::: g-col-2
 #### [**Experience**](experience.qmd)
-:::
-:::::::
+
+#### [**Projects**](projects.qmd)
+
+#### [**Resume**](resume.qmd)
 
 ------------------------------------------------------------------------
 
